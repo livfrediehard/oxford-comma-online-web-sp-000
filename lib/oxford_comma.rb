@@ -4,7 +4,7 @@ def oxford_comma(array)
     the_fruit << ", and #{last_fruit}"
     
   elsif array.size === 2 
-    return array.join (" and ")
+    return array.join(" and ")
   else
     return array.join
 end
